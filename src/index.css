@@ -1,0 +1,74 @@
+.box {
+  background-color: antiquewhite;
+  border: 1px;
+  border-radius: 2px;
+  box-shadow: 3px 3px 3px grey;
+  width: 20rem;
+  height: 20vh;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 5px;
+}
+
+.title {
+  color: brown;
+  text-shadow: 1px 1px grey;
+}
+
+.btn {
+  border-radius: 5px;
+  margin:inherit;
+  background-color: rgb(110, 3, 3);
+  color:white;
+}
+.boxBtn {
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  background-color: rgb(110, 3, 3);
+  color:white;
+}
+
+.btn2 {
+  border-radius: 5px;
+  margin-top:3rem;
+  background-color: transparent;
+  color:rgb(110, 3, 3);
+}
+
+.btn2:hover {
+  border-radius: 5px;
+  background-color: grey;
+  color:white;
+}
+.btn:hover,.boxBtn:hover {
+  background-color:rgb(230, 8, 8); ;
+  color: white;
+}
+
+.modal {
+  position: fixed;
+  box-shadow: 3px 3px 3px grey;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  width:30vw;
+  height: 30vh;
+  z-index: 10;
+  top:20vh;
+  left:35%;
+}
+
+.backdrop{
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.75);
+  width: 100%;
+  height: 100vh;
+  top:0;
+  left:0;
+}
+
+.rowDisplay{
+  display: flex;
+  flex-direction: row;
+}
